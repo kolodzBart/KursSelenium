@@ -43,7 +43,7 @@ namespace KursSelenium.Tasks
             IWebElement loginButton = driver.FindElement(By.Name("login"));
 
             IWebElement resetPasswordLink = driver.FindElement(By.LinkText("Nie pamiętasz hasła?"));
-            //IWebElement resetPasswordLink2 = driver.FindElement(By.ClassName("login")).FindElement(By.TagName("a"));  wyszukanie najpierw klasy gdzie ejst ten link a potem linku w klasie 
+            //IWebElement resetPasswordLink2 = driver.FindElement(By.ClassName("login")).FindElement(By.TagName("a"));  wyszukanie najpierw klasy "login" a potem linku w klasie 
         }
 
 
